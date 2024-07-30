@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - BlockWise Consulting</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">BlockWise Consulting</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h1>About Us</h1>
+    <h2>Our Mission</h2>
+    <p>To empower businesses with innovative blockchain solutions that drive efficiency, security, and transparency.</p>
+
+    <h2>Our Team</h2>
+    <div class="team-member">
+      <img src="team-member1.jpg" alt="Team Member 1">
+      <h3>John Doe</h3>
+      <p>Blockchain Expert with 10+ years of experience.</p>
+    </div>
+    <div class="team-member">
+      <img src="team-member2.jpg" alt="Team Member 2">
+      <h3>Jane Smith</h3>
+      <p>Senior Consultant specializing in finance and blockchain integration.</p>
+    </div>
+
+    <h2>Our Story</h2>
+    <p>BlockWise Consulting was founded in [Year] with the goal of bringing cutting-edge blockchain technology to businesses of all sizes. Our journey has been marked by innovation, dedication, and a commitment to excellence.</p>
+
+    <h2>Why Choose Us</h2>
+    <ul>
+      <li>Expertise: Our team of experienced blockchain experts and consultants brings deep technical knowledge and industry insights.</li>
+      <li>Tailored Solutions: We offer customized solutions designed to meet the unique needs and goals of your organization.</li>
+      <li>Proven Track Record: Our successful projects across various industries demonstrate our capability to deliver results.</li>
+      <li>Comprehensive Support: From strategy development to implementation and beyond, we provide end-to-end support to ensure your success.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="social-links">
+      <a href="#">LinkedIn</a>
+      <a href="#">Twitter</a>
+      <a href="#">Facebook</a>
+    </div>
+    <div class="contact-info">
+      <p>Email: info@blockwiseconsulting.com</p>
+      <p>Phone: (123) 456-7890</p>
+    </div>
+  </footer>
+</body>
+</html>
