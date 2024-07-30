@@ -1,17 +1,26 @@
+/* General Styling */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
 }
 
+/* Header Styling */
 header {
-  background: #333;
+  background-color: #1a1a2e;
   color: #fff;
-  padding: 10px 0;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
 }
 
 header .logo {
-  float: left;
+  font-size: 24px;
+  font-weight: bold;
   margin-left: 20px;
 }
 
@@ -34,35 +43,57 @@ header nav ul li {
 header nav ul li a {
   color: #fff;
   text-decoration: none;
+  font-size: 16px;
 }
 
+header nav ul li a:hover {
+  color: #4ecca3;
+}
+
+/* Section Styling */
 section {
-  padding: 20px;
+  padding: 80px 20px;
 }
 
 #hero {
-  background: #f4f4f4;
-  padding: 50px 20px;
+  background-color: #0f3460;
+  color: #fff;
+  padding: 100px 20px;
   text-align: center;
 }
 
 #hero .btn {
-  background: #333;
-  color: #fff;
+  background-color: #4ecca3;
+  color: #0f3460;
   padding: 10px 20px;
   text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+#hero .btn:hover {
+  background-color: #1a1a2e;
+  color: #fff;
 }
 
 #features {
   display: flex;
   justify-content: space-around;
+  padding: 40px 0;
 }
 
 #features .feature {
-  background: #f4f4f4;
+  background-color: #e8e8e8;
   padding: 20px;
   text-align: center;
   width: 30%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#features .feature:hover {
+  background-color: #4ecca3;
+  color: #fff;
 }
 
 #services-overview {
@@ -72,24 +103,35 @@ section {
 }
 
 #services-overview .service {
-  background: #f4f4f4;
+  background-color: #e8e8e8;
   margin: 10px;
   padding: 20px;
   width: 45%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#services-overview .service:hover {
+  background-color: #4ecca3;
+  color: #fff;
 }
 
 #testimonials {
-  background: #f4f4f4;
+  background-color: #0f3460;
+  color: #fff;
   padding: 20px;
 }
 
 #testimonials blockquote {
   margin: 20px 0;
   padding: 10px;
+  background-color: #1a1a2e;
+  border-left: 5px solid #4ecca3;
+  padding-left: 15px;
 }
 
 footer {
-  background: #333;
+  background-color: #1a1a2e;
   color: #fff;
   padding: 20px 0;
   text-align: center;
@@ -100,15 +142,23 @@ footer .footer-links {
 }
 
 footer .footer-links a {
-  color: #fff;
+  color: #4ecca3;
   margin: 0 10px;
   text-decoration: none;
 }
 
-footer .social-links a {
+footer .footer-links a:hover {
   color: #fff;
+}
+
+footer .social-links a {
+  color: #4ecca3;
   margin: 0 10px;
   text-decoration: none;
+}
+
+footer .social-links a:hover {
+  color: #fff;
 }
 
 footer .contact-info {
