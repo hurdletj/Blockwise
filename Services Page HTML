@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services - BlockWise Consulting</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">BlockWise Consulting</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="services">
+    <h1>Our Services</h1>
+    <div class="service-detail">
+      <h2>Strategic Blockchain Consulting</h2>
+      <p>Conduct a thorough analysis of your business processes to identify areas where blockchain can add value. Develop a tailored blockchain strategy aligned with your business goals and industry requirements. Assess the technical and financial feasibility of blockchain projects.</p>
+      <a href="#contact" class="btn">Learn More</a>
+    </div>
+    <div class="service-detail">
+      <h2>Blockchain Implementation Planning</h2>
+      <p>Design a scalable and secure blockchain architecture. Recommend the best blockchain platforms and technologies. Develop a comprehensive plan to integrate blockchain solutions with your existing systems and processes.</p>
+      <a href="#contact" class="btn">Learn More</a>
+    </div>
+    <div class="service-detail">
+      <h2>Development and Deployment</h2>
+      <p>Create and deploy smart contracts. Build decentralized applications (dApps). Implement pilot projects to test and refine blockchain solutions before full-scale deployment.</p>
+      <a href="#contact" class="btn">Learn More</a>
+    </div>
+    <div class="service-detail">
+      <h2>Training and Support</h2>
+      <p>Conduct training sessions for your team on blockchain fundamentals and specific project implementations. Provide ongoing technical support and maintenance. Regularly review and optimize blockchain implementations.</p>
+      <a href="#contact" class="btn">Learn More</a>
+    </div>
+    <div class="service-detail">
+      <h2>Security and Compliance</h2>
+      <p>Perform comprehensive security audits to identify and mitigate vulnerabilities. Ensure that your blockchain implementations comply with relevant industry regulations and standards.</p>
+      <a href="#contact" class="btn">Learn More</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="social-links">
+      <a href="#">LinkedIn</a>
+      <a href="#">Twitter</a>
+      <a href="#">Facebook</a>
+    </div>
+    <div class="contact-info">
+      <p>Email: info@blockwiseconsulting.com</p>
+      <p>Phone: (123) 456-7890</p>
+    </div>
+  </footer>
+</body>
+</html>
